@@ -1,2 +1,2 @@
 # odin-recipes
-This is my first project from The Odin Project. It is a website displaying some of my favorite recipes. I used the skills I learned with HTML, linux basics, and git to complete it. The main homepage includes links to each recipe. Inside each recipe page you will find a picture of the dish, a brief description, the ingredients, and steps to make it. Each recipe page also includes a link at the very bottom to go back to the home page.
+This is a simple recipe website I built while following The Odin Project Foundations curriculum. I used what I learned about HTML, CSS, Git and Linux basics to code this website. Hope you enjoy the recipes! 
