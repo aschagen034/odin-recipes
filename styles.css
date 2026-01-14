@@ -5,9 +5,8 @@
 
 body {
 
-    background-color: rgb(224, 234, 253);
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(234, 241, 255);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 h1 {
@@ -18,7 +17,7 @@ h1 {
 .recipe-list{
     text-align: center;
 }
-ul {
+.home .recipe-list ul {
     background-color: rgb(223, 212, 212);
     display: inline-block;
     list-style-position: inside; 
@@ -30,15 +29,38 @@ ul {
     padding: 20px;
     border-radius: 5px;
 }
-a {
+.home .recipe-list a {
     font-weight: bold;
     color: black;
 }
-li {
-    background-color: rgb(224, 205, 180);
+.home .recipe-list li {
+    background-color: rgb(231, 218, 201);
     border: 1px solid black;
     padding: 1em;
 }
+
+.recipe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.recipe img {
+    display: block;
+    margin: 0 auto 16px;
+}
+.recipe h1 {
+    margin: 24px 0;
+}
+.recipe h2 { 
+    margin: 16px 0 8px; 
+}
+.recipe p { 
+    margin: 0 0 16px; 
+}
+.recipe ul, .recipe ol { 
+    padding-left: 24px; margin: 0 0 16px; 
+}
+
 
 
 
